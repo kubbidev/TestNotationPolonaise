@@ -92,7 +92,7 @@ internal static class Program
         {
             private readonly string[] _tokens;
             private readonly Dictionary<string, double> _vars;
-            private int _currentToken;
+            private int _pos;
             private bool _expectOperator = true;
 
             /// <summary>
@@ -104,7 +104,7 @@ internal static class Program
             {
                 _tokens = exp.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                 _vars = vars;
-                _currentToken = 0;
+                _pos = 0;
             }
 
             /// <summary>
@@ -114,7 +114,7 @@ internal static class Program
             /// <exception cref="InvalidExpressionException">Thrown when the expression is empty or invalid.</exception>
             public double Parse()
             {
-                if (_currentToken >= _tokens.Length)
+                if (_pos >= _tokens.Length)
                 {
                     throw new InvalidExpressionException(
                         "Empty or invalid expression");
@@ -130,13 +130,13 @@ internal static class Program
             /// <exception cref="InvalidExpressionException">Thrown when an unknown token or invalid operator order is encountered.</exception>
             private double ParseNext()
             {
-                if (_currentToken >= _tokens.Length)
+                if (_pos >= _tokens.Length)
                 {
                     throw new InvalidExpressionException(
                         "Unexpected end of expression");
                 }
 
-                var token = _tokens[_currentToken++];
+                var token = _tokens[_pos++];
 
                 // If it's a number, return it directly
                 if (!double.TryParse(token, out var number))
