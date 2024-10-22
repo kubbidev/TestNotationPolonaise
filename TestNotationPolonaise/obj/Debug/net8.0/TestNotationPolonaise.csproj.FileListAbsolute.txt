@@ -1,0 +1,15 @@
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\bin\Debug\net8.0\TestNotationPolonaise.exe
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\bin\Debug\net8.0\TestNotationPolonaise.deps.json
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\bin\Debug\net8.0\TestNotationPolonaise.runtimeconfig.json
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\bin\Debug\net8.0\TestNotationPolonaise.dll
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\bin\Debug\net8.0\TestNotationPolonaise.pdb
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.AssemblyInfoInputs.cache
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.AssemblyInfo.cs
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.csproj.CoreCompileInputs.cache
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.sourcelink.json
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.dll
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\refint\TestNotationPolonaise.dll
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.pdb
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\TestNotationPolonaise.genruntimeconfig.cache
+C:\Development\Projects\TestNotationPolonaise\TestNotationPolonaise\obj\Debug\net8.0\ref\TestNotationPolonaise.dll
