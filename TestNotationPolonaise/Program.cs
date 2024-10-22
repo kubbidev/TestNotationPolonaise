@@ -92,7 +92,6 @@ internal static class Program
         {
             private readonly string[] _tokens;
             private readonly Dictionary<string, double> _vars;
-            private readonly bool _hasMultipleTokens;
             private int _currentToken;
             private bool _expectOperator = true;
 
@@ -105,7 +104,6 @@ internal static class Program
             {
                 _tokens = exp.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                 _vars = vars;
-                _hasMultipleTokens = _tokens.Length > 1;
                 _currentToken = 0;
             }
 
@@ -148,7 +146,7 @@ internal static class Program
                         // Otherwise, it's an operator or function, apply it
                         ApplyOperatorOrFunction(token);
 
-                if (_hasMultipleTokens && _expectOperator)
+                if (_tokens.Length > 1 && _expectOperator)
                 {
                     throw new InvalidExpressionException(
                         "Invalid expression: numbers must be prefixed with an operator in PN");
